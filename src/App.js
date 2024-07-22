@@ -3,10 +3,6 @@ import OSS from 'ali-oss';
 import './App.css';
 
 function App() {
-  console.log('NEXT_PUBLIC_ALI_OSS_REGION:', process.env.REACT_APP_PUBLIC_ALI_OSS_REGION);
-  console.log('NEXT_PUBLIC_ALI_OSS_ACCESS_KEY_ID:', process.env.REACT_APP_PUBLIC_ALI_OSS_ACCESS_KEY_ID);
-  console.log('NEXT_PUBLIC_ALI_OSS_ACCESS_KEY_SECRET:', process.env.REACT_APP_PUBLIC_ALI_OSS_ACCESS_KEY_SECRET);
-  console.log('NEXT_PUBLIC_ALI_OSS_BUCKET:', process.env.REACT_APP_PUBLIC_ALI_OSS_BUCKET);
 
   const [selectedFile, setSelectedFile] = useState(null);
 
