@@ -16,10 +16,10 @@ function App() {
     }
 
     const client = new OSS({
-      region: process.env.NEXT_PUBLIC_ALI_OSS_REGION,
-      accessKeyId: process.env.NEXT_PUBLIC_ALI_OSS_ACCESS_KEY_ID,
-      accessKeySecret: process.env.NEXT_PUBLIC_ALI_OSS_ACCESS_KEY_SECRET,
-      bucket: process.env.NEXT_PUBLIC_ALI_OSS_BUCKET
+      region: process.env.REACT_APP_PUBLIC_ALI_OSS_REGION,
+      accessKeyId: process.env.REACT_APP_PUBLIC_ALI_OSS_ACCESS_KEY_ID,
+      accessKeySecret: process.env.REACT_APP_PUBLIC_ALI_OSS_ACCESS_KEY_SECRET,
+      bucket: process.env.REACT_APP_PUBLIC_ALI_OSS_BUCKET
     });
 
     try {
